@@ -1,0 +1,36 @@
+{
+  "name": "jzcode-server",
+  "version": "0.9",
+  "description": "桔子编程后台管理系统",
+  "main": "app.js",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jz1code/jzcode-server.git"
+  },
+  "author": "joe",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jz1code/jzcode-server/issues"
+  },
+  "homepage": "https://github.com/jz1code/jzcode-server#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lru-cache": "^6.0.0",
+    "mariadb": "^2.5.4",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0",
+    "sendmail": "^1.6.1",
+    "typeorm": "^0.2.37",
+    "typescript": "^4.4.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
